@@ -1,0 +1,119 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Container */
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 25px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Heading */
+h1 {
+    text-align: center;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+/* Form */
+form {
+    display: flex;
+    gap: 10px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+button {
+    padding: 12px 18px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Short URL Box */
+.short-url {
+    text-align: center;
+    margin-top: 20px;
+    background: #e9f7ef;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #28a745;
+    color: #28a745;
+    font-weight: bold;
+}
+
+/* Recent URLs Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th {
+    background: #007bff;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+/* Flash messages */
+.flash {
+    background: #ffcccc;
+    padding: 10px;
+    border: 1px solid red;
+    color: red;
+    margin-bottom: 15px;
+    border-radius: 6px;
+}
+
+/* Error Page */
+.error-container {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.error-code {
+    font-size: 80px;
+    font-weight: bold;
+    color: red;
+}
+
+.error-message {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
